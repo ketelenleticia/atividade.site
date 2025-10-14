@@ -1,0 +1,23 @@
+.menu{
+    display: flex;
+    max-width: 1120px;
+    margin: auto;
+    padding: 1.5rem 10rem;
+    flex-direction: row;
+
+    background-color: #01064d;
+    list-style: none;
+    color: rgb(255, 255, 255);
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5rem;
+}
+samp{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+.opaccity{
+  filter: opacity(10%);
+  background-color: #01064d;
+}
