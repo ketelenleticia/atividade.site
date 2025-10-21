@@ -31,43 +31,48 @@
   color: #ebebeb;
 }
 
-samp{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 2rem;
-    text-transform: uppercase;
-}
-.opaccity{
-  filter: opacity(10%);
-  background-color: #01064d;
-  height: 100vh;
-}
-.inicio{
-  background-color: #01064d;
+
+
+.center{
+  background-image: url(download.webp);
+  filter: opacity(30%);
+  background-position: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    color: #ebebeb;
+    position: relative;
+    
 }
 
 
-section.inicio{
-   height: 100vh;
-   background-color:#01064d;
-   display: flex;  
-   flex-direction: column;
-   justify-content: center;
-   align-items: flex-start;
-   padding: 0 60px;
-   color: white;
+
+.center h1{
+  color: #ebebeb;
+
 }
-#conteudo samp{
-   font-size: 50px;
-   font-weight: 700 ;
-   line-height: 1.2;
-   margin-bottom: 20px;
-   flex-direction: column-reverse;
-}   
-.hero {
-  font-size: 18px ;
-  max-width: 500px;
-  margin-bottom:40px ;
+.center p{
+  color: #ebebeb;
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .button{
   display: flex;
   gap: 20px;
@@ -99,3 +104,39 @@ section.inicio{
   color: black;
 }
 
+.parte1 img{
+  float: right;
+  right: 100px;
+  width: 40%;
+  height: 40%;
+  
+}
+
+.parte2 img{
+    float: left;
+    width: 40%;
+    height: 40%;
+    
+}
+.escrita1{
+  float: left;
+  margin: 5%;
+}
+.escrita2{
+  float: right;
+  margin: 5%;
+  
+}
+
+
+
+
+
+
+
+
+
+footer{
+  background: #01064d;
+  color: #ebebeb;
+}
